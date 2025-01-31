@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shiny Web - Student</title>
+<style>
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4e1d2; /* Color de fondo cálido y suave */
+  color: #3c2a1f; /* Color de texto oscuro y cálido */
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-color: #b5651d; /* Color marrón oscuro */
+  color: white;
+  text-align: center;
+  padding: 30px;
+  font-size: 36px;
+  border-bottom: 4px solid #7a3d25; /* Línea inferior más oscura */
+}
+
+.container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+h2 {
+  color: #3c2a1f; /* Color de texto rústico */
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+a, button {
+  background-color: #b5651d; /* Color marrón cálido */
+  color: white;
+  font-size: 18px;
+  padding: 15px 30px;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: inline-block;
+  margin-top: 20px;
+  transition: background-color 0.3s ease;
+}
+
+a:hover, button:hover {
+  background-color: #7a3d25; /* Color más oscuro al pasar el cursor */
+}
+
+.video {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.pdf {
+  margin: 40px 0;
+}
+
+footer {
+  background-color: #7a3d25; /* Fondo de pie de página oscuro */
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-size: 16px;
+  margin-top: 40px;
+}
+
+table {
+  width: 100%;
+  margin-top: 40px;
+  border-collapse: collapse;
+}
+
+table td {
+  vertical-align: top;
+  padding: 10px;
+}
+
+table img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+table iframe {
+  border-radius: 8px;
+}
+
+</style>
+</head>
+<body>
+<header>
+<h1>Shiny Web - Student</h1>
+</header>
+
+<div class="container">
+<h2>¡Bienvenido a Shiny Web!</h2>
+<p>Explora herramientas interactivas y aprende más con los análisis en línea.</p>
+
+<!-- Botón para ir a Shiny -->
+<a href="https://williamdutan.shinyapps.io/ShinyDash_Excel/" target="_blank">Ver Análisis Shiny</a>
+
+<img src="imagen.jpg" alt="Imagen Descriptiva" width="600" style="margin-top: 20px;">
+
+<p>Esta página contiene videos informativos y documentos PDF para que puedas aprender más sobre la web y el análisis de datos.</p>
+
+<h2>Video Informativo</h2>
+<div class="video">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qv_hDaSAttk?si=lXrjsVq2lbP7sWpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+<h2>Documentos PDF</h2>
+<div class="pdf">
+<a href="Documento_shiny.pdf" target="_blank">Descargar PDF</a>
+<h3>Ver PDF BD</h3>
+<embed src="Documento_shiny.pdf" type="application/pdf" width="600" height="500">
+</div>
+
+<!-- Layout de imagen y video en tabla -->
+<table>
+<tr>
+<!-- Imagen en el lado izquierdo -->
+<td align="center">
+<img src="imagen.jpg" alt="Imagen Descriptiva">
+</td>
+
+<!-- Video en el lado derecho -->
+<td align="center">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Qv_hDaSAttk?si=lXrjsVq2lbP7sWpI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</td>
+</tr>
+</table>
+
+</div>
+
+<footer>
+<p>&copy; 2025 Shiny Web - Student</p>
+</footer>
+
+</body>
+</html>
